@@ -1,0 +1,48 @@
+
+.done {
+	text-decoration: line-through red;
+}
+
+span {
+	color: red;
+	border: solid 1px red;
+	padding: 1px 4px;
+	margin-left: 1%;
+	text-decoration: none;
+	background-color: white;
+}
+
+span:hover {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 1%;
+	padding: 5px;
+	max-width: 40%;
+	background-color: #f1f1f1;
+}
+
+li span {
+	float: right;
+}
+
+li:after {
+	clear: both;
+}
+
+body {
+	background: linear-gradient(to right, #00ff00, #ffff00);
+}
+
+#random {
+	padding: 1%;
+	cursor: pointer;
+}
